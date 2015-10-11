@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: scroll;
+  font-family: Geneva, sans-serif;
+}
+
+.wrapper {
+  width: 951px;
+  min-height: inherit;
+  height: inherit;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  box-sizing: inherit;
+}
+
+#header, #tweets {
+  background: #eb4f4e;
+}
+
+#header{
+  min-height: 750px;
+  color: #ffffff;
+  text-align: center;
+}
+
+#menu {
+  min-height: 110px;
+  background: #f56262;
+}
+#menu .wrapper {
+  background: url("img/logo.png") no-repeat 0 50%;
+  padding: 38px 0;
+  text-align: right;
+  font: 1.0em;
+  box-sizing: border-box;
+  /*border: 1px solid black;*/
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+#menu li {
+  list-style: none;
+  display: inline-block;
+  /*width: 100px;*/
+  height: 33px;
+  margin-right: 50px;
+  border: 1px solid black;
+  text-align: left;
+  line-height: 33px;
+  vertical-align: middle;
+  /*margin-top: auto;*/
+}
+
+#menu li:last-child {
+  margin-right: 0;
+}
+
+#menu li.current{
+  width: 74px;
+  /*height: 33px;*/
+  background-color: #232324;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#header h1 {
+  font-size: 40px;
+  letter-spacing: 0.2em;
+  margin-top: 75px;;
+  margin-bottom: 0.4em;
+}
+
+#header p {
+  font-size: 16px;
+}
+
+#merits, #footer {
+  background: #232324;
+}
+
+#merits {
+  height: 371px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#merits h2 {
+  font-size: 26px;
+  margin-top: 40px;;
+  margin-bottom: 0.7em;
+  color: #ffffff;
+}
+
+#merits h3 {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+#merits p {
+  color: #d94948;
+  margin-bottom: 45px;
+}
+
+#merits .merit {
+  text-align: inherit;
+  width: 228px;
+  display: inline-block;
+}
+
+#merits .round {
+  display: inline-block;
+  width: 104px;
+  height: 103px;
+  border-radius: 50%;
+  background: #e74c3c;
+  margin-bottom: 27px;
+}
+
+#team {
+  min-height: 518px;
+  background: #6cc372;
+}
+
+#portfolio {
+  min-height: 563px;
+  background: #ececec;
+}
+
+#pricing {
+  min-height: 486px;
+  background: #000000;
+}
+
+#tweets {
+  min-height: 281px;
+}
+
+#footer {
+  min-height: 301px;
+}
