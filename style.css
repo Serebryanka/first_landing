@@ -49,14 +49,12 @@ body {
 #menu li {
   list-style: none;
   display: inline-block;
-  /*width: 100px;*/
   height: 33px;
   margin-right: 50px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   text-align: left;
   line-height: 33px;
   vertical-align: middle;
-  /*margin-top: auto;*/
 }
 
 #menu li:last-child {
@@ -65,9 +63,8 @@ body {
 
 #menu li.current{
   width: 74px;
-  /*height: 33px;*/
   background-color: #232324;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   border-radius: 5px;
   text-align: center;
 }
