@@ -9,13 +9,22 @@ body {
 }
 
 .wrapper {
+  position: relative;
   width: 951px;
   min-height: inherit;
   height: inherit;
   margin: 0 auto;
-  position: relative;
   overflow: hidden;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
   box-sizing: inherit;
+}
+
+.wrapper h2 {
+  margin-top: 40px;;
+  margin-bottom: 0.7em;
+  font-size: 26px;
+  letter-spacing: 0.2em;
 }
 
 #header, #tweets {
@@ -24,19 +33,22 @@ body {
 
 #header{
   min-height: 750px;
-  color: #ffffff;
   text-align: center;
+  color: #ffffff;
 }
 
 #menu {
   min-height: 110px;
   background: #f56262;
 }
+
 #menu .wrapper {
-  background: url("img/logo.png") no-repeat 0 50%;
   padding: 38px 0;
   text-align: right;
   font: 1.0em;
+  background: url("img/logo.png") no-repeat 0 50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   /*border: 1px solid black;*/
 }
@@ -47,10 +59,10 @@ body {
 }
 
 #menu li {
-  list-style: none;
   display: inline-block;
   height: 33px;
   margin-right: 50px;
+  list-style: none;
   /*border: 1px solid black;*/
   text-align: left;
   line-height: 33px;
@@ -63,17 +75,17 @@ body {
 
 #menu li.current{
   width: 74px;
+  text-align: center;
   background-color: #232324;
   /*border: 1px solid black;*/
   border-radius: 5px;
-  text-align: center;
 }
 
 #header h1 {
-  font-size: 40px;
-  letter-spacing: 0.2em;
   margin-top: 75px;;
   margin-bottom: 0.4em;
+  font-size: 40px;
+  letter-spacing: 0.2em;
 }
 
 #header p {
@@ -87,61 +99,193 @@ body {
 #merits {
   height: 371px;
   text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 #merits h2 {
-  font-size: 26px;
-  margin-top: 40px;;
-  margin-bottom: 0.7em;
   color: #ffffff;
 }
 
 #merits h3 {
+  margin-bottom: 15px;
   font-size: 20px;
   color: #ffffff;
-  margin-bottom: 15px;
 }
 
 #merits p {
-  color: #d94948;
   margin-bottom: 45px;
+  color: #d94948;
 }
 
 #merits .merit {
-  text-align: inherit;
   width: 228px;
-  display: inline-block;
+  margin-left: 30px;
+  margin-right: 70px;
+  /*display: inline-block;*/
+  float: left;
+  text-align: inherit;
+}
+
+#merits .merit:last-child {
+  margin-right: 30px;
 }
 
 #merits .round {
-  display: inline-block;
   width: 104px;
   height: 103px;
-  border-radius: 50%;
-  background: #e74c3c;
   margin-bottom: 27px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#merits #merit-1 {
+  background: #e74c3c url("img/multi.png") no-repeat 50% 50%;
+}
+
+#merits #merit-2 {
+  background: #e74c3c url("img/flat.png") no-repeat 50% 50%;
+}
+
+#merits #merit-3 {
+  background: #e74c3c url("img/cloud.png") no-repeat 50% 50%;
 }
 
 #team {
-  min-height: 518px;
+  height: 518px;
+  padding: 0;
   background: #6cc372;
+  text-align: center;
+}
+
+#team h2 {
+  color: #ffffff;
+}
+
+#team p {
+  margin-bottom: 40px;
+  color: #232324;
+}
+
+#team .team-member {
+  width: 220px;
+  /*height: 344px;*/
+  margin-right: 10px;
+  padding: 0;
+  display: inline-block;
+  background-color: #ffffff;
+}
+
+#team .team-member:last-child {
+  margin-right: 0;
+}
+
+#team .team-member h3 {
+  margin-bottom: 1em;
+  font-size: 18px;
+  color: #6cc372;
+}
+
+#team .team-member p {
+  margin-bottom: 1em;
+  font-size: 12px;
+  color: #e74c3c;
+}
+
+#team .twitter-follow {
+  width: 207px;
+  padding: 10px 0;
+  margin: 10px auto;
+  font-size: 18px;
+  color: #ffffff;
+  background: #6cc372 url("img/twitter-icon.png") no-repeat 5% 50%;
+  border-radius: 5px;
 }
 
 #portfolio {
   min-height: 563px;
+  text-align: center;
   background: #ececec;
+}
+
+#portfolio h2 {
+  color: #616161;
+}
+
+#portfolio p {
+  margin-bottom: 40px;
+  color: #61af66;
+}
+
+#portfolio .example {
+  width: 203px;
+  margin-right: 40px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  vertical-align: bottom;
+  color: #232324;
+}
+
+#portfolio .example:last-child {
+  margin-right: 0;
+}
+
+#portfolio .example img {
+  margin-bottom: 25px;
 }
 
 #pricing {
   min-height: 486px;
-  background: #000000;
+  background: #ffffff;
 }
 
 #tweets {
   min-height: 281px;
+  text-align: center;
+}
+
+#tweets h2 {
+  color: #ffffff;
+}
+
+#tweets p {
+  margin-bottom: 30px;
+  color: #232324;
 }
 
 #footer {
-  min-height: 301px;
+  /*min-height: 301px;*/
+  color: #ffffff;
+}
+
+#footer p {
+  margin-top: 16px;
+  float: left;
+}
+
+#footer .social {
+  width: 31px;
+  height: 32px;
+  margin: 10px 5px;
+  float: right;
+  background-color: #eb4f4e;
+}
+
+#footer .fb.social {
+  background: #eb4f4e url("img/fb-icon.png") no-repeat 50% 50%;
+}
+
+#footer .tw.social {
+  background: #eb4f4e url("img/twitter-icon.png") no-repeat 50% 50%;
+  background-size: 21px 17px;
+}
+
+#footer .rss.social {
+  background: #eb4f4e url("img/rss-icon.png") no-repeat 50% 50%;
+}
+
+#footer span {
+  color: #eb4f4e;
 }
