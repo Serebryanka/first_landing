@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: scroll;
+  font-family: Geneva, sans-serif;
+}
+
+header, footer, nav, section {
+  display: block;
+}
+
+.wrapper {
+  position: relative;
+  width: 951px;
+  min-height: inherit;
+  height: inherit;
+  margin: 0 auto;
+  overflow: hidden;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/*.wrapper h2 {*/
+.headline {
+  margin-top: 40px;;
+  margin-bottom: 0.7em;
+  font-size: 26px;
+  letter-spacing: 0.2em;
+}

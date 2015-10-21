@@ -1,0 +1,52 @@
+.tweets {
+  position: relative;
+  width: 100%;
+  min-height: 281px;
+  text-align: center;
+  background: #eb4f4e;
+}
+
+.tweets__headline {
+  color: #ffffff;
+}
+
+.tweets__subhead {
+  margin-bottom: 30px;
+  color: #232324;
+}
+
+.tweets__arrow {
+  position: absolute;
+  top: 42%;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #232324;
+}
+
+.tweets__arrow_prev  {
+  left: 15%;
+}
+
+.tweets__arrow_next {
+  right: 15%;
+}
+
+.tweets__container {
+  margin-top: 25px;
+}
+
+.tweet {
+  font-style: italic;
+  text-align: left;
+  line-height: 2em;
+}
+
+.tweet__content {
+  margin-bottom: 30px;
+  color: #232324;
+}
+
+.tweet__text {
+  color: #ffffff;
+}

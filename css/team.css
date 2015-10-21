@@ -1,0 +1,56 @@
+.team {
+  height: 518px;
+  padding: 0;
+  background: #6cc372;
+  text-align: center;
+}
+
+.team__headline {
+  color: #ffffff;
+}
+
+.team__subhead {
+  margin-bottom: 40px;
+  color: #232324;
+}
+
+.team__member {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.team__member:last-child {
+  margin-right: 0;
+}
+
+.member {
+  width: 220px;
+  /*height: 344px;*/
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.member__name {
+  margin-bottom: 1em;
+  font-size: 18px;
+  color: #6cc372;
+}
+
+.member__position {
+  margin-bottom: 1em;
+  font-size: 12px;
+  color: #e74c3c;
+}
+
+.button {
+  width: 207px;
+  padding: 10px 0;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.button_twitter {
+  margin: 10px auto;
+  color: #ffffff;
+  background: #6cc372 url("../img/twitter-icon.png") no-repeat 5% 50%;
+}

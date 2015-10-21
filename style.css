@@ -8,6 +8,10 @@ body {
   font-family: Geneva, sans-serif;
 }
 
+header, footer, nav, section {
+  display: block;
+}
+
 .wrapper {
   position: relative;
   width: 951px;
@@ -27,23 +31,23 @@ body {
   letter-spacing: 0.2em;
 }
 
-#header, #tweets {
+header, #tweets {
   background: #eb4f4e;
 }
 
-#header{
+header{
   position: relative;
   min-height: 750px;
   text-align: center;
   color: #ffffff;
 }
 
-#menu {
+nav {
   min-height: 110px;
   background: #f56262;
 }
 
-#menu .wrapper {
+nav .wrapper {
   padding: 38px 0;
   text-align: right;
   font: 1.0em;
@@ -54,12 +58,12 @@ body {
   /*border: 1px solid black;*/
 }
 
-#menu ul {
+nav ul {
   margin: 0;
   padding: 0;
 }
 
-#menu li {
+nav li {
   display: inline-block;
   height: 33px;
   margin-right: 50px;
@@ -70,11 +74,11 @@ body {
   vertical-align: middle;
 }
 
-#menu li:last-child {
+nav li:last-child {
   margin-right: 0;
 }
 
-#menu li.current{
+nav li.current{
   width: 74px;
   text-align: center;
   background-color: #232324;
@@ -82,31 +86,31 @@ body {
   border-radius: 5px;
 }
 
-#header h1 {
+header h2 {
   margin-top: 75px;;
   margin-bottom: 0.4em;
   font-size: 40px;
   letter-spacing: 0.2em;
 }
 
-#header p {
+header p {
   font-size: 16px;
 }
 
-#header .browser {
+header .browser {
   position: absolute;
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: cover;
 }
 
-#header .back.browser {
+header .back.browser {
   top: 285px;
   width: 498px;
   height: 347px;
 }
 
-#header .front.browser {
+header .front.browser {
   top: 220px;
   left: 18%;
   width: 622px;
@@ -115,18 +119,18 @@ body {
   background-image: url("img/safari-fcbarsa.jpg");
 }
 
-#header .left.browser {
+header .left.browser {
   left: 0;
   background-image: url("img/safari-blueapple.jpg");
 }
 
-#header .right.browser {
+header .right.browser {
   right: 0;
   background-image: url("img/safari-cloud.jpg");
 }
 
 
-#merits, #footer {
+#merits, footer {
   background: #232324;
 }
 
@@ -142,7 +146,7 @@ body {
   color: #ffffff;
 }
 
-#merits h3 {
+#merits .merit-value {
   margin-bottom: 15px;
   font-size: 20px;
   color: #ffffff;
@@ -215,16 +219,16 @@ body {
   margin-right: 0;
 }
 
-#team .team-member h3 {
-  margin-bottom: 1em;
-  font-size: 18px;
-  color: #6cc372;
-}
-
 #team .team-member p {
   margin-bottom: 1em;
   font-size: 12px;
   color: #e74c3c;
+}
+
+#team p.member-name {
+  margin-bottom: 1em;
+  font-size: 18px;
+  color: #6cc372;
 }
 
 #team .twitter-follow {
@@ -319,22 +323,22 @@ body {
   color: #ffffff;
 }
 
-#footer {
+footer {
   position: relative;
   /*min-height: 301px;*/
   color: #ffffff;
 }
 
-#footer .wrapper p {
+footer .wrapper p {
   margin-top: 16px;
   float: left;
 }
 
-#footer span {
+footer span {
   color: #eb4f4e;
 }
 
-#footer .social {
+footer .social {
   width: 31px;
   height: 32px;
   margin: 10px 5px;
@@ -342,33 +346,33 @@ body {
   background-color: #eb4f4e;
 }
 
-#footer .fb.social {
+footer .fb.social {
   background: #eb4f4e url("img/fb-icon.png") no-repeat 50% 50%;
 }
 
-#footer .tw.social {
+footer .tw.social {
   background: #eb4f4e url("img/twitter-icon.png") no-repeat 50% 50%;
   background-size: 21px 17px;
 }
 
-#footer .rss.social {
+footer .rss.social {
   background: #eb4f4e url("img/rss-icon.png") no-repeat 50% 50%;
 }
 
-#footer p.red{
+footer p.red{
   display: block;
   padding-top: 30px;
   color: #eb4f4e;
 }
 
-#footer .h2 {
+footer .h2 {
   display: block;
   font-size: 20px;
   letter-spacing: 0.2em;
   color: #ffffff;
 }
 
-#footer .contacts {
+footer .contacts {
   position: absolute;
   top: 100px;
   left: 35%;
@@ -380,6 +384,6 @@ body {
   background-color: #232324;
 }
 
-#footer img {
+footer img {
   width: 100%;
 }

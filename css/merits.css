@@ -1,0 +1,61 @@
+.merits {
+  height: 371px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #232324;
+}
+
+.merits__headline {
+  color: #ffffff;
+}
+
+.merit__value {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.merits__subhead {
+  margin-bottom: 45px;
+  color: #d94948;
+}
+
+.merit__description {
+  /*margin-bottom: 45px;*/
+  color: #d94948;
+}
+
+.merit {
+  width: 228px;
+  margin-left: 30px;
+  margin-right: 70px;
+  /*display: inline-block;*/
+  float: left;
+  text-align: inherit;
+}
+
+.merit:last-child {
+  margin-right: 30px;
+}
+
+.merit__round {
+  width: 104px;
+  height: 103px;
+  margin-bottom: 27px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.merit__round_purpose {
+  background: #e74c3c url("../img/multi.png") no-repeat 50% 50%;
+}
+
+.merit__round_ui {
+  background: #e74c3c url("../img/flat.png") no-repeat 50% 50%;
+}
+
+.merit__round_design {
+  background: #e74c3c url("../img/cloud.png") no-repeat 50% 50%;
+}

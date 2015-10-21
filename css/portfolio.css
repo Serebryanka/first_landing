@@ -1,0 +1,32 @@
+.portfolio {
+  min-height: 563px;
+  text-align: center;
+  background: #ececec;
+}
+
+.portfolio__headline {
+  color: #616161;
+}
+
+.portfolio__subhead {
+  margin-bottom: 40px;
+  color: #61af66;
+}
+
+.portfolio__example {
+  width: 203px;
+  margin-right: 40px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  vertical-align: bottom;
+  color: #232324;
+}
+
+.portfolio__example:last-child {
+  margin-right: 0;
+}
+
+.portfolio__picture {
+  margin-bottom: 25px;
+}
