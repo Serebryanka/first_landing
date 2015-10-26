@@ -1,9 +1,5 @@
 .merits {
-  height: 371px;
-  text-align: center;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  padding: 40px 0 25px 0;
   background: #232324;
 }
 
@@ -11,51 +7,61 @@
   color: #ffffff;
 }
 
-.merit__value {
-  margin-bottom: 15px;
-  font-size: 20px;
-  color: #ffffff;
-}
-
 .merits__subhead {
-  margin-bottom: 45px;
+  margin-bottom: 40px;
+  text-align: center;
   color: #d94948;
 }
 
-.merit__description {
-  /*margin-bottom: 45px;*/
-  color: #d94948;
+.merits_element {
+  float: left;
 }
 
 .merit {
-  width: 228px;
-  margin-left: 30px;
-  margin-right: 70px;
-  /*display: inline-block;*/
-  float: left;
-  text-align: inherit;
+  width: 33%;
+  padding: 0 15px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.merit:last-child {
-  margin-right: 30px;
+.merit__value {
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+
+.merit__description {
+  line-height: 1.4em;
+  color: #d94948;
 }
 
 .merit__round {
   width: 104px;
   height: 103px;
+  margin: 0 auto;
   margin-bottom: 27px;
-  display: inline-block;
   border-radius: 50%;
 }
 
 .merit__round_purpose {
-  background: #e74c3c url("../img/multi.png") no-repeat 50% 50%;
+  background-color: #e74c3c;
+  background-image: url("../img/multi.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .merit__round_ui {
-  background: #e74c3c url("../img/flat.png") no-repeat 50% 50%;
+  background-color: #e74c3c;
+  background-image: url("../img/flat.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .merit__round_design {
-  background: #e74c3c url("../img/cloud.png") no-repeat 50% 50%;
+  background-color: #e74c3c;
+  background-image: url("../img/cloud.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }

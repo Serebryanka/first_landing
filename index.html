@@ -9,44 +9,47 @@
   <body>
     <header class="header">
       <nav class="header__menu">
-        <div class="wrapper">
-          <ul class="menu">
-            <li class="menu__item menu__item_current">Home</li>
-            <li class="menu__item"><a class="menu__link" href="#merits">About</a></li>
-            <li class="menu__item"><a class="menu__link" href="#team">Team</a></li>
-            <li class="menu__item"><a class="menu__link" href="#portfolio">Portfolio</a></li>
-            <li class="menu__item"><a class="menu__link" href="#portfolio">Portfolio</a></li>
-            <li class="menu__item"><a class="menu__link" href="#pricing">Other</a></li>
-            <li class="menu__item"><a class="menu__link" href="#contacts">Contact</a></li>
-          </ul>
+        <div class="wrapper clearfix">
+          <div class="menu-container">
+            <ul class="menu">
+              <li class="menu__item menu__item_current">Home</li>
+              <li class="menu__item"><a class="menu__link" href="#merits">About</a></li>
+              <li class="menu__item"><a class="menu__link" href="#team">Team</a></li>
+              <li class="menu__item"><a class="menu__link" href="#portfolio">Portfolio</a></li>
+              <li class="menu__item"><a class="menu__link" href="#pricing">Other</a></li>
+              <li class="menu__item"><a class="menu__link" href="#contacts">Contact</a></li>
+            </ul>
+          </div>
         </div>
       </nav>
-      <div class="wrapper">
-      <h2 class="headline header__headline">Welcome to Motion</h2>
-      <p class="header__subhead">Asmart & Creative Single Page Template</p>
-      <div class="header__browser header__browser_back header__browser_left"></div>
-      <div class="header__browser header__browser_front"></div>
-      <div class="header__browser header__browser_back header__browser_right"></div>
-    </div>
-  </header>
+      <div class="wrapper clearfix header-wrapper">
+        <h2 class="headline header__headline">Welcome to Motion</h2>
+        <p class="header__subhead">Asmart & Creative Single Page Template</p>
+        <img class="header__browser header__browser_back header__browser_right" src="img/safari-cloud.jpg">
+        <img class="header__browser header__browser_back header__browser_left" src="img/safari-blueapple.jpg">
+        <img class="header__browser header__browser_front" src="img/safari-fcbarsa.jpg">
+      </div>
+    </header>
     <section class="merits" id="merits">
-      <div class="wrapper">
+      <div class="wrapper clearfix">
         <h2 class="headline merits__headline">Smart & Creative</h2>
         <p class="merits__subhead">This is why you will use it :)</p>
-        <div class="merit merits_element">
-          <div class="merit__round merit__round_purpose"></div>
-          <p class="merit__value">Multi purpose</p>
-          <p class="merit__description">Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
-        </div>
-        <div class="merit merits_element">
-          <div class="merit__round merit__round_ui"></div>
-          <p class="merit__value">Flat UI</p>
-          <p class="merit__description">Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
-        </div>
-        <div class="merit merits_element">
-          <div class="merit__round merit__round_design"></div>
-          <p class="merit__value">Creative Design</p>
-          <p class="merit__description">Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
+        <div class="merits-container">
+          <div class="merit merits_element">
+            <div class="merit__round merit__round_purpose"></div>
+            <p class="merit__value">Multi purpose</p>
+            <p class="merit__description">Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
+          </div>
+          <div class="merit merits_element">
+            <div class="merit__round merit__round_ui"></div>
+            <p class="merit__value">Flat UI</p>
+            <p class="merit__description">Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
+          </div>
+          <div class="merit merits_element">
+            <div class="merit__round merit__round_design"></div>
+            <p class="merit__value">Creative Design</p>
+            <p class="merit__description">Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
+          </div>
         </div>
       </div>
     </section>
@@ -54,25 +57,31 @@
       <div class="wrapper">
         <h2 class="headline team__headline">Talented & Experts</h2>
         <p class="team__subhead">This is our team :)</p>
-        <div class="member team__member">
-          <p class="member__name">Mahmoud Baghagho</p>
-          <p class="member__position">Senior UI Designer</p>
-          <input type="button" class="button button_twitter" value="Follow">
-        </div>
-        <div class="member team__member">
-          <p class="member__name">Abd ElRahman</p>
-          <p class="member__position">Senior App Developer</p>
-          <input type="button" class="button button_twitter" value="Follow">
-        </div>
-        <div class="member team__member">
-          <p class="member__name">Mostafa Amin</p>
-          <p class="member__position">Senior Graphic Designer</p>
-          <input type="button" class="button button_twitter" value="Follow">
-        </div>
-        <div class="member team__member">
-          <p class="member__name">Ahmed Ali</p>
-          <p class="member__position">Senior Web Developer</p>
-          <input type="button" class="button button_twitter" value="Follow">
+        <div class="team-container clearfix">
+          <div class="member team__member">
+            <img class="member__photo" src="img/Mahmoud_Baghagho.png">
+            <p class="member__name">Mahmoud Baghagho</p>
+            <p class="member__position">Senior UI Designer</p>
+            <input type="button" class="button button_twitter" value="Follow">
+          </div>
+          <div class="member team__member">
+            <img class="member__photo" src="img/Abd_ElRahman.png">
+            <p class="member__name">Abd ElRahman</p>
+            <p class="member__position">Senior App Developer</p>
+            <input type="button" class="button button_twitter" value="Follow">
+          </div>
+          <div class="member team__member">
+            <img class="member__photo" src="img/Mostafa_Amin.png">
+            <p class="member__name">Mostafa Amin</p>
+            <p class="member__position">Senior Graphic Designer</p>
+            <input type="button" class="button button_twitter" value="Follow">
+          </div>
+          <div class="member team__member">
+            <img class="member__photo" src="img/Ahmed_Ali.png">
+            <p class="member__name">Ahmed Ali</p>
+            <p class="member__position">Senior Web Developer</p>
+            <input type="button" class="button button_twitter" value="Follow">
+          </div>
         </div>
       </div>
     </section>
@@ -80,43 +89,110 @@
       <div class="wrapper">
         <h2 class="headline portfolio__headline">Elegant & Genuine</h2>
         <p class="portfolio__subhead">This is how our works looks like :)</p>
-        <figure class="portfolio__example">
-          <img class="portfolio__picture" src="img/SMS-Cloud.jpg" alt="SMS Cloud" title="SMS Cloud">
-          <figcaption>SMS Cloud</figcaption>
-        </figure>
-        <figure class="portfolio__example">
-          <img class="portfolio__picture" src="img/Blue-Apple.jpg" alt="Blue Apple Soft" title="Blue Apple Soft">
-          <figcaption>Blue Apple Soft</figcaption>
-        </figure>
-        <figure class="portfolio__example">
-          <img class="portfolio__picture" src="img/Together.jpg" alt="Together Application" title="Together Application">
-          <figcaption>Together Application</figcaption>
-        </figure>
-        <figure class="portfolio__example">
-          <img class="portfolio__picture" src="img/FCBarselona.jpg" alt="FCBarselona Club" title="FCBarselona Club">
-          <figcaption>FCBarselona Club</figcaption>
-        </figure>
+        <div class="portfolio-container clearfix">
+          <div class="portfolio__arrow portfolio__arrow_prev"></div>
+          <div class="portfolio__arrow portfolio__arrow_next"></div>
+          <figure class="portfolio__example">
+            <img class="portfolio__picture" src="img/SMS-Cloud.jpg" alt="SMS Cloud" title="SMS Cloud">
+            <figcaption>SMS Cloud</figcaption>
+          </figure>
+          <figure class="portfolio__example">
+            <img class="portfolio__picture" src="img/Blue-Apple.jpg" alt="Blue Apple Soft" title="Blue Apple Soft">
+            <figcaption>Blue Apple Soft</figcaption>
+          </figure>
+          <figure class="portfolio__example">
+            <img class="portfolio__picture" src="img/Together.jpg" alt="Together Application" title="Together Application">
+            <figcaption>Together Application</figcaption>
+          </figure>
+          <figure class="portfolio__example">
+            <img class="portfolio__picture" src="img/FCBarselona.jpg" alt="FCBarselona Club" title="FCBarselona Club">
+            <figcaption>FCBarselona Club</figcaption>
+          </figure>
+        </div>
+        <div class="paging portfolio__paging">
+            <div class="paging__item"></div>
+            <div class="paging__item"></div>
+            <div class="paging__item"></div>
+            <div class="paging__item paging__item_current"></div>
+        </div>
       </div>
     </section>
     <section class="pricing" id="pricing">
       <div class="wrapper">
+        <div class="pricing__plan pricing__plan_start">
+          <ul class="plan">
+            <li class="plan__title">
+              <p class="plan__title_header">Start Up</p>
+              <p class="plan__title_subheader">For beginners</p>
+            </li>
+            <li class="plan__item">Basic pages</li>
+            <li class="plan__item">MySQL Databases</li>
+            <li class="plan__item">Bandwith</li>
+            <li class="plan__item">Storage space</li>
+            <li class="plan__value">
+              <span class="plan__value_currency">$ </span>
+              <span class="plan__value_value">15 </span>
+              <span class="plan__value_period">/mo</span>
+              <input class="button button_order plan__button" type="submit" value="Order">
+          </li>
+          </ul>
+        </div>
+        <div class="pricing__plan pricing__plan_standard">
+          <ul class="plan">
+            <li class="plan__title">
+              <p class="plan__title_header plan__text_red">Standard</p>
+              <p class="plan__title_subheader plan__text_gray">More than what you have dreamed with</p>
+              <img class="plan__icon" src="img/price-icon.png">
+            </li>
+            <li class="plan__item">Standard pages</li>
+            <li class="plan__item">MySQL Databases</li>
+            <li class="plan__item">Bandwith</li>
+            <li class="plan__item">Storage space</li>
+            <li class="plan__value">
+              <span class="plan__value_currency">$ </span>
+              <span class="plan__value_value">25 </span>
+              <span class="plan__value_period">/mo</span>
+              <input class="button button_order plan__button plan__text_red" type="submit" value="Order">
+            </li>
+          </ul>
+        </div>
+        <div class="pricing__plan pricing__plan_pro">
+          <ul class="plan">
+            <li class="plan__title">
+              <p class="plan__title_header">Professional</p>
+              <p class="plan__title_subheader">For smart people</p>
+            </li>
+            <li class="plan__item">Basic pages</li>
+            <li class="plan__item">MySQL Databases</li>
+            <li class="plan__item">Bandwith</li>
+            <li class="plan__item">Storage space</li>
+            <li class="plan__value">
+              <span class="plan__value_currency">$ </span>
+              <span class="plan__value_value">35 </span>
+              <span class="plan__value_period">/mo</span>
+              <input class="button button_order plan__button" type="submit" value="Order">
+            </li>
+          </ul>
+        </div>
+        <p class="pricing__more">And more available plans for all needs ....
+          <a class="pricing__link" href="#">Click here</a></p>
       </div>
     </section>
     <section class="tweets" id="tweets">
-      <div class="tweets__arrow tweets__arrow_prev"></div>
-      <div class="tweets__arrow tweets__arrow_next"></div>
-      <div class="wrapper">
+      <div class="wrapper tweets-container">
+        <div class="tweets__arrow tweets__arrow_prev"></div>
+        <div class="tweets__arrow tweets__arrow_next"></div>
         <h2 class="headline tweets__headline">Latest Tweets</h2>
         <p class="tweets__subhead">This is how to keep in touch :)</p>
-        <img src="img/twitter-icon.png" alt="Twitter Icon">
-        <div class="tweet tweets__container">
+        <img class="tweets__icon" src="img/twitter-icon.png" alt="Twitter Icon">
+        <div class="tweet tweets__element">
           <p class="tweet__content">@Abd-Alrahaman Elgazzar <span class="tweet__text">Great work Abd-Alrahaman, I really love the application ...
           hope you have all the luck in ur life... also have alook here</span> http://t.co/zfdgfdg</p>
         </div>
       </div>
     </section>
     <footer class="footer">
-      <div class="wrapper">
+      <div class="wrapper clearfix">
         <p class="footer__copyright">&copy; 2013 <span class="footer__copyright_red">Motion Template</span>, Design by Begha</p>
         <div class="footer__social">
           <div class="social social_fb"></div>
@@ -125,7 +201,7 @@
         </div>
       </div>
       <img class="footer__map" src="img/google-map.jpg" alt="Map" >
-      <div class="contacts footer__contacts">
+      <div class="contacts footer__contacts" id="contacts">
         <p class="contacts__headline">Contact Us</p>
         <p class="contacts__value">7oroof@7oroof.com</p>
         <p class="contacts__value">Your address goes here</p>

@@ -1,50 +1,75 @@
 .header{
-  position: relative;
   min-height: 750px;
-  text-align: center;
   color: #ffffff;
   background: #eb4f4e;
 }
 
+.header-wrapper {
+  position: relative;
+}
+
 .header__headline {
-  margin-top: 75px;;
-  margin-bottom: 0.4em;
-  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 2.8rem;
   letter-spacing: 0.2em;
 }
 
 .header__subhead {
-  font-size: 16px;
+  margin-bottom: 35px;
+  font-size: 1rem;
+  text-align: center;
 }
 
 .header__browser {
-  position: absolute;
-  background-repeat: no-repeat;
+  /*position: absolute;*/
+  /*background-repeat: no-repeat;
   background-position: 0 0;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 .header__browser_back {
-  top: 285px;
-  width: 498px;
-  height: 347px;
+  /*top: 285px;*/
+  /*width: 498px;
+  height: 347px;*/
+  width: 50%;
+  -moz-transform: translate(0, 10%); /* For Firefox */
+  -ms-transform: translate(0, 10%); /* For IE 9 */
+  -o-transform: translate(0, 10%); /* For Opera */
+  -webkit-transform: translate(0, 10%); /* For Chrome, Safari, iOS */
+  transform: translate(0, 10%);
 }
 
 .header__browser_front {
-  top: 220px;
-  left: 18%;
-  width: 622px;
-  height: 433px;
-  z-index: 10;
-  background-image: url("../img/safari-fcbarsa.jpg");
+  /*top: 220px;
+  left: 18%;*/
+  /*width: 622px;
+  height: 433px;*/
+  position: absolute;
+  /*top: 50%;*/
+  left: 50%;
+  width: 60%;
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  /*z-index: 10;*/
+  /*background-image: url("../img/safari-fcbarsa.jpg");*/
 }
 
 .header__browser_left {
+  /*left: 0;*/
+  /*float: left;*/
+  position: absolute;
   left: 0;
-  background-image: url("../img/safari-blueapple.jpg");
+  /*background-image: url("../img/safari-blueapple.jpg");*/
 }
 
 .header__browser_right {
+  /*right: 0;*/
+  /*float: right;*/
+  position: absolute;
   right: 0;
-  background-image: url("../img/safari-cloud.jpg");
+  /*background-image: url("../img/safari-cloud.jpg");*/
 }

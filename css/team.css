@@ -1,8 +1,6 @@
 .team {
-  height: 518px;
-  padding: 0;
+  padding: 40px 0 25px 0;
   background: #6cc372;
-  text-align: center;
 }
 
 .team__headline {
@@ -11,46 +9,58 @@
 
 .team__subhead {
   margin-bottom: 40px;
+  text-align: center;
   color: #232324;
 }
 
-.team__member {
-  margin-right: 10px;
-  display: inline-block;
+.team-container {
+  margin: 0 auto;
 }
 
-.team__member:last-child {
-  margin-right: 0;
+.team__member {
+  margin-left: 15px;
+  float: left;
 }
 
 .member {
-  width: 220px;
-  /*height: 344px;*/
-  padding: 0;
+  width: 23%;
   background-color: #ffffff;
+  border-radius: 2%;
+}
+
+.member__photo {
+  display: block;
+  margin: 23px auto;
+  margin-bottom: 0;
+  border-radius: 50%;
 }
 
 .member__name {
-  margin-bottom: 1em;
-  font-size: 18px;
+  font-size: 1.3rem;
+  line-height: 2.5em;
+  text-align: center;
   color: #6cc372;
 }
 
 .member__position {
-  margin-bottom: 1em;
-  font-size: 12px;
+  text-align: center;
   color: #e74c3c;
 }
 
 .button {
-  width: 207px;
-  padding: 10px 0;
-  font-size: 18px;
+  display: block;
+  width: 96%;
+  margin: 20px auto;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
   border-radius: 5px;
 }
 
 .button_twitter {
-  margin: 10px auto;
+  padding: 10px 0;
   color: #ffffff;
-  background: #6cc372 url("../img/twitter-icon.png") no-repeat 5% 50%;
+  background-color: #6cc372;
+  background-image: url("../img/twitter-icon.png");
+  background-repeat: no-repeat;
+  background-position: 5% 50%;
 }

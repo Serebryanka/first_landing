@@ -1,4 +1,122 @@
 .pricing {
-  min-height: 486px;
+  /*min-height: 486px;*/
+  position: relative;
+  top: -162px;
+}
+
+.pricing__plan {
+  width: 31%;
+  margin-right: 15px;
+  margin-bottom: 35px;
+  display: inline-block;
+}
+
+.pricing__plan_pro {
+  margin-right: 0;
+}
+
+.plan {
+  display: block;
+  list-style: none;
+  /*width: 304px;*/
+}
+
+.plan__title {
+  padding: 20px 20px 25px 20px;
+  text-align: center;
   background: #ffffff;
+  position: relative;
+}
+
+.plan__title_header {
+  font-size: 2.5rem;
+  line-height: 1.5em;
+  color: #616161;
+}
+
+.plan__title_subheader {
+  font-size: 1.2rem;
+  line-height: 1.5em;
+  color: #eb4f4e;
+}
+
+.plan__icon {
+  width: 33px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  -moz-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+  -o-transform: translate(-50%, 50%);
+  -webkit-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+}
+
+.plan__item {
+  padding: 15px;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #616161;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #000000;
+}
+
+.plan__value {
+  position: relative;
+  padding: 20px 10px;
+  text-align: left;
+  color: #ffffff;
+  background-color: #eb4f4e;
+}
+
+.plan__value_currency {
+  font-size: 1.3rem;
+  line-height: 3rem;
+  vertical-align: top;
+}
+
+.plan__value_value {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.plan__value_period {
+  font-size: 1.3rem;
+  line-height: 3rem;
+  vertical-align: bottom;
+}
+
+.button_order {
+  width: 35%;
+  padding: 5px 0;
+  font-size: 1.2rem;
+  color: #616161;
+  background-color: #ffffff;
+}
+
+.plan__button {
+  /*float: right;*/
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  /*margin-top: 7px;*/
+}
+
+.pricing__more {
+  clear: both;
+  text-align: center;
+  color: #eb4f4e;
+}
+
+.pricing__link {
+  text-decoration: none;
+  color: #eb4f4e;
+}
+
+.plan__text_red {
+  color: #eb4f4e;
+}
+
+.plan__text_gray {
+  color: #232324;
 }

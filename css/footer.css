@@ -1,7 +1,6 @@
 .footer {
   position: relative;
   background: #232324;
-  /*min-height: 301px;*/
   color: #ffffff;
 }
 
@@ -24,9 +23,8 @@
 .social {
   width: 31px;
   height: 32px;
-  margin-right: 5px;
+  margin-left: 5px;
   display: inline-block;
-  /*margin: 10px 5px;*/
   background-color: #eb4f4e;
 }
 
@@ -47,30 +45,35 @@
   width: 620px;
   padding-top: 20px;
   padding-bottom: 25px;
-  /*height: 152px;*/
   text-align: center;
   background-color: #232324;
 }
 
 .contacts__headline {
   display: block;
-  font-size: 20px;
+  font-size: 1.3rem;
   letter-spacing: 0.2em;
   color: #ffffff;
 }
 
 .contacts__value{
   display: block;
-  padding-top: 30px;
+  padding-top: 20px;
   color: #eb4f4e;
 }
 
 .footer__contacts {
   position: absolute;
-  top: 100px;
-  left: 35%;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -35%);
+  -ms-transform: translate(-50%, -35%);
+  -o-transform: translate(-50%, -35%);
+  -webkit-transform: translate(-50%, -35%);
+  transform: translate(-50%, -35%);
 }
 
 .footer__map {
   width: 100%;
+  vertical-align: bottom;
 }
